@@ -1,0 +1,91 @@
+﻿body{
+	background-color: #35495e;
+}
+header {
+	width: 100vw;
+	height: 5vw;
+	background-color: #35495e;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	border-bottom: 0.1vw #41b883 solid;
+}
+.logo {
+	float: left;
+	margin-top: 1vw; 
+	margin-left: 2vw;
+	background-image: url(../img/dumbell.png);
+	background-size: 3vw 3vw;
+	width: 3vw;
+	height: 3vw;
+}
+.nav {
+	float: left;
+	margin-left: 12vw;
+	color: #41b883;
+	margin-top: 1.3vw;
+	font-size: 1.3vw;
+	font-family: 'Roboto Slab', sans-serif;
+}
+.tag_name {
+	float: left;
+	margin-top: 1vw;
+	margin-left: 2vw;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 1.5vw;
+	color: #41b883;
+	font-weight: 700;
+}
+li {
+	display: inline;
+	margin-left: 2.4vw;
+}
+.bx-wrapper{
+	margin-top: 5vw;
+	border: 0px;
+	margin-bottom: 0;
+}
+.bx-pager{
+	display: none;
+}
+.main_usl{
+	width:100vw;
+	height: 24vw;
+	float: left;
+}
+.usl {
+	margin-top: 5vw;
+	margin-left: 10vw;
+	width: 20vw;
+	height: 24vw;
+	float: left;
+	background-color: #727f80;
+	border-radius: 1vw;
+}
+.uslimg {
+	float: left;
+	margin: -1.5vw 2vw;
+	border-bottom: 0.2vw #41b883 solid;
+	width: 16vw;
+	height: 9vw;
+	background-size: 16vw 9vw;
+	border-radius: 1vw;
+	background-repeat: no-repeat;
+}
+.usltag {
+	float: left;
+	width: 20vw;
+	margin-top: 2vw;
+	text-align: center;
+	font-size: 1vw;
+	font-family: 'Roboto Slab', sans-serif;
+	color: #d8d8fc;
+}
+.uslmain {
+	float: left;
+	width: 16vw;
+	font-size: 0.8vw;
+	font-family: 'Roboto Slab', sans-serif;
+	color: #d8d8fc;
+	padding: 2vw;
+}
