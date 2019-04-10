@@ -1,12 +1,13 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="./js/bxslider/dist/jquery.bxslider.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="./js/bxslider/dist/jquery.bxslider.min.js"></script>
 <script>
   $(function(){
   $('.bxslider').bxSlider({
     mode: 'fade',
     captions: true,
     slideWidth: 1920,
+    auto: true,
     useCSS: true
   });
 });
@@ -16,7 +17,7 @@
       <div><img src="img/second.jpg"></div>
       <div><img src="img/third.jpg"></div>
     </div>
-<div class="main_usl">
+<div class="main_usl" style="overflow-y: hidden;">
   <div class="usl">
     <div class="uslimg" style="background-image: url(img/usl1.JPG)"></div>
     <div class="usltag">Тренажерный зал</div>
@@ -48,3 +49,4 @@
     <div class="uslmain">Единственная в России программа по системному групповому похудению под наблюдением тренеров. Это 10 недель тренировок, поддержка кураторов, лекции по питанию, борьба за главный приз и победа над собой.</div>
   </div>
 </div>
+<!-- <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A980d4cd677cd452d4a731febe08c6bfc70549f70eee24c260442105f0192cd11&amp;source=constructor" width="100%" frameborder="0"  scroll="0"></iframe> -->
