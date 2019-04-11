@@ -8,7 +8,7 @@
       <script src="js/script.js"></script>
       <title>|_-_-_-_-_-_-_-_-_-_-_-_-_|</title>
     </head>  
-    <body style="overflow-x: hidden; margin: 0px;overflow-y: hidden;">
+    <body>
     <header>
       <div class="logo"></div>
       <div class="tag_name">Тренажёрный зал <br>KACH KNOK</div>
@@ -16,7 +16,8 @@
         <ul>
           <li id="f">Главная</li>
           <li id="s">Услуги</li>
-          <li>Обратная связь</li>
+          <li id="t"><a href="./form">Обратная связь</a></li>
+          <li id="fo"><a href="../">На главную</a></li>
         </ul>
       </div>
     </header>

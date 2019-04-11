@@ -1,8 +1,7 @@
 ﻿body{
-	background-color: #35495e;
-	overflow-x: hidden; 
 	margin: 0px;
-	overflow-y: hidden;
+	background-color: #35495e;
+	overflow-x: hidden;
 }
 header {
 	width: 100vw;
@@ -53,65 +52,14 @@ a {
 	text-decoration: none;
 	color: #41b883;
 }
+#s{
+	display: none;
+}
+#t{
+	display: none;
+}
 #f{
 	display: none;
-}
-#fo{
-	display: none;
-}
-.map{
-	float: left;
-	height: 21vw;
-}
-.bx-wrapper{
-	width: 100vw;
-	margin-top: 5vw;
-	border: 0px solid black;
-	margin-bottom: 0;
-}
-.bx-controls{
-	display: none;
-}
-.main_usl{
-	width:100vw;
-	height: 60vw;
-	float: left;
-}
-.usl {
-	margin-top: 5vw;
-	margin-left: 10vw;
-	width: 20vw;
-	height: 24vw;
-	float: left;
-	background-color: #727f80;
-	border-radius: 1vw;
-}
-.uslimg {
-	float: left;
-	margin: -1.5vw 2vw;
-	border-bottom: 0.2vw #41b883 solid;
-	width: 16vw;
-	height: 9vw;
-	background-size: 16vw 9vw;
-	border-radius: 1vw;
-	background-repeat: no-repeat;
-}
-.usltag {
-	float: left;
-	width: 20vw;
-	margin-top: 2vw;
-	text-align: center;
-	font-size: 1vw;
-	font-family: 'Roboto Slab', sans-serif;
-	color: #d8d8fc;
-}
-.uslmain {
-	float: left;
-	width: 16vw;
-	font-size: 0.8vw;
-	font-family: 'Roboto Slab', sans-serif;
-	color: #d8d8fc;
-	padding: 2vw;
 }
 footer{
 	float: left;
