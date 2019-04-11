@@ -17,12 +17,17 @@ $pass = '';
         die('Подключение не удалось: ' . $e->getMessage());
         }
 
-$sql_insert = 'INSERT INTO `gymtab`
+if (isset($_POST['g-recaptcha-response'])){
+    $sql_insert = 'INSERT INTO `gymtab`
                  SET 
                   `Fname` = "'.$_POST[Fname].'",
                   `Sname` = "'.$_POST[Sname].'",
                   `Tname` = "'.$_POST[Tname].'",
                   `Tele` = "'.$_POST[Tele].'"';
-$count = $pdo->exec($sql_insert);
+    $count = $pdo->exec($sql_insert);
+}else{
+    exit('Вы не прошли валидацию reCaptcha');
+}
+
 ?>
 <script>setTimeout(function() { window.location = './'; },100) </script>
