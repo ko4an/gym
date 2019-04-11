@@ -131,3 +131,68 @@ footer{
 	background-color: #727f8050;
 	border-radius: 1vw;
 }
+input[type='number'] {
+	width: 30vw;
+	height: 1vw;
+	padding: 0.5vw;
+	float: left;
+	margin-left: 15vw;
+	margin-top: 2vw;
+	background-color: #35495e;
+	border: 0px solid black;
+	box-shadow: none;
+	-webkit-appearance: none;
+}
+input[name='Fname'] {
+	margin-top: 2vw;
+	background-color: #35495e;
+	border: 0px solid black;
+	box-shadow: none;
+	height: 1vw;
+	padding: 0.5vw;
+	float: left;
+	margin-left: 3vw;
+	width: 15vw;
+}
+input[name='Sname'] {
+	margin-top: 2vw;
+	background-color: #35495e;
+	border: 0px solid black;
+	box-shadow: none;
+	height: 1vw;
+	padding: 0.5vw;
+	float: left;
+	margin-left: 3vw;
+	width: 15vw;
+}
+input[name='Tname'] {
+	margin-top: 2vw;
+	background-color: #35495e;
+	border: 0px solid black;
+	box-shadow: none;
+	height: 1vw;
+	padding: 0.5vw;
+	float: left;
+	margin-left: 3vw;
+	width: 15vw;
+}
+textarea{
+	padding: 0.5vw;
+	float: left;
+	margin-top: 4vw;
+	margin-left: 5vw;
+	width: 50vw;
+	height: 16vw;
+	resize: none;
+	background-color: #35495e;
+	border: none;
+}
+input[type="submit"]{
+	float: left;
+	background-color: #35495e;
+	margin-top: 4vw;
+	padding: 0.5vw;
+	width: 15vw;
+	margin-left: 22.5vw;
+	border: 0vw;
+}

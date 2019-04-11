@@ -1,11 +1,12 @@
 ﻿$(document).scroll(function(){
+	var scro = $('.bxslider').offset().top;
 	var scr=document.documentElement.scrollTop;
-	 	if(scr<=1030){
+	 	if(scr<=scro){
 	 		$("#f").css({"display":"none"})
 	 		$("#s").css({"display":"inline"})
 
 	 	}
-	 	else if(scr>=1030){
+	 	else if(scr>=scro){
 	 		$("#s").css({"display":"none"})
 	 		$("#f").css({"display":"inline"})
 	 	}
@@ -22,11 +23,13 @@ var dds=document.documentElement.scrollTop;
 
 $(document).ready(function(){
 	$("#f").click(function(){
-		$("html").animate({scrollTop:0},1000)
+		var scro = $('.bxslider').offset().top;
+		$("html").animate({scrollTop:scro},1000)
 		$("body").css({"overflow-y":"hidden"})
 	})
 	$("#s").click(function(){
-		$("html").animate({scrollTop:1080},1000)
+		var scro = $('.main_usl').offset().top;
+		$("html").animate({scrollTop:scro},1000)
 		$("body").css({"overflow-y":"scroll"})
 	})
 })
